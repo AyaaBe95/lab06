@@ -1,9 +1,13 @@
-let  person = prompt("Please enter your name", "Your name");
+let  person = prompt("Please enter your name");
 
 if (person != null) {
-  alert("welcome " + person + " in our library")
+  alert("welcome " + person + " in our library ")}
+
+  else {
+      alert (" welcome nobody in our library");
+  }
+
   
-}
 
 if (confirm("Press a button!")) {
     txt = "You pressed OK!";
