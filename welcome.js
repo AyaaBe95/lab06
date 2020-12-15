@@ -1,7 +1,7 @@
 let  person = prompt("Please enter your name", "Your name");
 
 if (person != null) {
-  alert("welcome " + person)
+  alert("welcome " + person + " in our library")
   
 }
 
